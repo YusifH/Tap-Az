@@ -4,7 +4,9 @@ import 'package:flutter/material.dart';
 
 class MyTheme {
   static const splash = Color(0xFFff4f08);
+  static const homeback = Color(0xFFf8f9fd);
   static const statusBar = Color(0xFF2E3147);
+  static const searchBar = Color(0xFFf1f3f7);
   static const appBarColor = Color(0xFF222539);
   static const greenColor = Color(0xFF2EC492);
   static const orangeColor = Color(0xFFEB8D2F);
