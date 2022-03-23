@@ -6,6 +6,7 @@ import 'package:tapaz/contsants/color.dart';
 import 'package:tapaz/contsants/data.dart';
 import 'package:tapaz/pages/category.dart';
 import 'package:tapaz/pages/search_bar.dart';
+import 'package:tapaz/pages/slider.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({Key? key}) : super(key: key);
@@ -47,7 +48,22 @@ class _HomeScreenState extends State<HomeScreen> {
             children: [
               SearchBar(),
               SizedBox(height: 10),
-              Category()
+              Category(),
+              SizedBox(height: 10),
+              SliderCarousel(),
+              Container(
+                decoration: BoxDecoration(
+                  color: MyTheme.searchBar
+                ),
+                padding: EdgeInsets.only(top: 10, left: 16, bottom: 10),
+                //height: size.height*0.03,
+                width: size.width,
+                child: Row(
+                  children: [
+                    Text('Vip Elanlar')
+                  ],
+                ),
+              )
             ],
           ),
         ),

@@ -21,8 +21,8 @@ class Category extends StatelessWidget {
                 //print(category[index].name);
               },
               child: Container(
-                  margin: EdgeInsets.only(left: 15, right: 15),
-                  padding: EdgeInsets.all(10),
+                  margin: EdgeInsets.only(left: 15),
+                  padding: EdgeInsets.only(left: 10, right: 10),
                   decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(8),
                       color: Colors.white38,
@@ -30,8 +30,8 @@ class Category extends StatelessWidget {
                   ),
                   child: Row(
                     children: [
-                      Image.asset(category[index].asset),
-                      SizedBox(width: 8,),
+                      Image.asset(category[index].asset, height: 18,),
+                      SizedBox(width: 8),
                       Text(category[index].name)],
                   ))
             );
