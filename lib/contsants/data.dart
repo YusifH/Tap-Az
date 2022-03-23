@@ -20,4 +20,18 @@ class CategoryModel {
 
   });
 }
+List<SliderModel> slider =[
+  SliderModel(asset: "assets/slider/slider1.jpg"),
+  SliderModel(asset: "assets/slider/slider0.jpg"),
+  SliderModel(asset: "assets/slider/slider2.jpg"),
+  SliderModel(asset: "assets/slider/slider3.jpg"),
+  SliderModel(asset: "assets/slider/slider4.jpg"),
 
+];
+class SliderModel {
+  final String asset;
+
+  SliderModel({
+    required this.asset,
+});
+}

@@ -51,7 +51,7 @@ class _SplashScreenState extends State<SplashScreen>
       body: Container(
         child: Center(
           child: Text(
-            'TAP.AZ',
+            'tap.az',
             style: TextStyle(
                 color: Colors.white, fontSize: 32, fontWeight: FontWeight.bold),
           ),
