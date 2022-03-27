@@ -1,6 +1,7 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:tapaz/contsants/data.dart';
+
+import 'detail.dart';
 
 class ProductItem extends StatelessWidget {
   const ProductItem({Key? key}) : super(key: key);
@@ -24,8 +25,10 @@ class ProductItem extends StatelessWidget {
                 elevation: 4,
                 borderRadius: BorderRadius.circular(10),
                 child: InkWell(
-                  onTap: (){
-                    print(product[index].title);
+                  onTap: () {
+                    Navigator.of(context).push(MaterialPageRoute(
+                        builder: (context) =>
+                            Detail(img: product[index].asset, title: product[index].title,)));
                   },
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
