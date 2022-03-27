@@ -36,18 +36,28 @@ class SliderModel {
 });
 }
 List<ProductModel> product =[
-  ProductModel(title: 'Apple iPhone 13 Pro Sierra Blue 256GB/6GB', description: 'Xususiyyetler', price: 1500,asset: 'assets/product/1.jpg'),
-  ProductModel(title: 'Ofis kreslosu',description: 'Xususiyyetler', price: 85, asset: 'assets/product/2.jpg'),
-  ProductModel(title: 'Masa və oturacaqlar', description: 'Xususiyyetler', price: 650,asset: 'assets/product/3.jpg'),
-  ProductModel(title: 'Velosiped', description: 'Xususiyyetler', price: 240 ,asset: 'assets/product/4.jpg'),
-  ProductModel(title: 'Noutbuk HP', description: 'Xususiyyetler', price: 565, asset: 'assets/product/5.jpg'),
+  ProductModel(title: 'Apple iPhone 13 Pro Sierra Blue 256GB/6GB', description: 'Xususiyyetler', price: '1500 AZN',asset: 'assets/product/1.jpg'),
+  ProductModel(title: 'Ofis kreslosu',description: 'Xususiyyetler', price: '85 AZN', asset: 'assets/product/2.jpg'),
+  ProductModel(title: 'Masa və oturacaqlar', description: 'Xususiyyetler', price: '650 AZN',asset: 'assets/product/3.jpg'),
+  ProductModel(title: 'Velosiped', description: 'Xususiyyetler', price: '240 AZN' ,asset: 'assets/product/4.jpg'),
+  ProductModel(title: 'Noutbuk HP', description: 'Xususiyyetler', price: '565 AZN', asset: 'assets/product/5.jpg'),
+  ProductModel(title: 'Apple iPhone 13 Pro Sierra Blue 256GB/6GB', description: 'Xususiyyetler', price: '1500 AZN',asset: 'assets/product/1.jpg'),
+  ProductModel(title: 'Ofis kreslosu',description: 'Xususiyyetler', price: '85 AZN', asset: 'assets/product/2.jpg'),
+  ProductModel(title: 'Masa və oturacaqlar', description: 'Xususiyyetler', price: '650 AZN',asset: 'assets/product/3.jpg'),
+  ProductModel(title: 'Velosiped', description: 'Xususiyyetler', price: '240 AZN' ,asset: 'assets/product/4.jpg'),
+  ProductModel(title: 'Noutbuk HP', description: 'Xususiyyetler', price: '565 AZN', asset: 'assets/product/5.jpg'),
+  ProductModel(title: 'Apple iPhone 13 Pro Sierra Blue 256GB/6GB', description: 'Xususiyyetler', price: '1500 AZN',asset: 'assets/product/1.jpg'),
+  ProductModel(title: 'Ofis kreslosu',description: 'Xususiyyetler', price: '85 AZN', asset: 'assets/product/2.jpg'),
+  ProductModel(title: 'Masa və oturacaqlar', description: 'Xususiyyetler', price: '650 AZN',asset: 'assets/product/3.jpg'),
+  ProductModel(title: 'Velosiped', description: 'Xususiyyetler', price: '240 AZN' ,asset: 'assets/product/4.jpg'),
+  ProductModel(title: 'Noutbuk HP', description: 'Xususiyyetler', price: '565 AZN', asset: 'assets/product/5.jpg'),
 
 ];
 
 class ProductModel {
   final String title;
   final String description;
-  final double price;
+  final String price;
   final String asset;
 
   ProductModel({
