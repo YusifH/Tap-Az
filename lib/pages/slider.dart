@@ -29,11 +29,3 @@ class _SliderCarouselState extends State<SliderCarousel> {
     );
   }
 }
-// CarouselSlider.builder(
-// slideTransform: CubeTransform(),
-// autoSliderDelay: Duration(seconds: 1),
-// slideBuilder: (index) {
-// return Image.asset(slider[index].asset, fit: BoxFit.cover,);
-// },
-// autoSliderTransitionTime: Duration(seconds: 1),
-// itemCount: slider.length),
