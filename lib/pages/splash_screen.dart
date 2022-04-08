@@ -53,7 +53,7 @@ class _SplashScreenState extends State<SplashScreen>
           child: Text(
             'tap.az',
             style: TextStyle(
-                color: Colors.white, fontSize: 32, fontWeight: FontWeight.bold),
+                color: Colors.white, fontSize: 40, fontWeight: FontWeight.bold),
           ),
         ),
         color: MyTheme.splash,

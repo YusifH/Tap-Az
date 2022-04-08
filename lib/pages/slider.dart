@@ -13,7 +13,7 @@ class _SliderCarouselState extends State<SliderCarousel> {
   Widget build(BuildContext context) {
     final Size size = MediaQuery.of(context).size;
     return Container(
-      height: size.height*0.2,
+      height: 150,
       width: size.width,
       child: CarouselSlider.builder(
           itemCount: slider.length,

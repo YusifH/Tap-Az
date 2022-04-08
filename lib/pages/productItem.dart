@@ -28,7 +28,7 @@ class ProductItem extends StatelessWidget {
                   onTap: () {
                     Navigator.of(context).push(MaterialPageRoute(
                         builder: (context) =>
-                            Detail(img: product[index].asset, title: product[index].title,)));
+                            Detail(img: product[index].asset, title: product[index].title, price: product[index].price,)));
                   },
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
